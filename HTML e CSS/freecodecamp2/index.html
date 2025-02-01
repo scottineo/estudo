@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LTT Fanclub</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="freecodecamp2\LTT logo.jpeg" />
+      <nav id="nav-bar">
+        <a class="nav-link" href="#form">Get in!</a>
+        <a class="nav-link" href="#presentation">Know more</a>
+        <a class="nav-link" href="#products">Products</a>
+      </nav>
+    </header>
+    <main>
+        <section id="welcome-section">
+            <h1>Welcome to the LTT Fanclub!</h1>
+            <p>Join us to get the latest news and products from Linus Tech Tips</p>
+        </section>
+      <form
+        id="form"
+        action="https://www.freecodecamp.com/email-submit"
+        method="post"
+      >
+        <input
+          name="email"
+          id="email"
+          type="email"
+          placeholder="john@doe.com"
+        />
+        <input id="submit" type="submit" class="btn" value="Join in!"/>
+      </form>
+      <section id="presentation">
+        <iframe
+          id="video" width="560"
+          height="315"
+          src="https://www.youtube.com/embed/tE89COeFw7I?si=_qvyPhIMBn7DjfuP"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="products">
+        <div id="product"><img href="freecodecamp2\1.png"/></div>
+        <div id="product"><img href="freecodecamp2\2.png"/></div>
+        <div id="product"><img href="freecodecamp2\3.png"/></div>
+      </section>
+    </main>
+    <footer id="footer">
+      <p>© 2024</p>
+    </footer>
+  </body>
+</html>
