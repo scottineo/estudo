@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>É um palíndromo?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1 class="title">É um palíndromo?</h1>
+        <div class="palindrome-div">
+            <label for="text-input">Insira um texto para checar se é um palíndromo:
+            </label>
+            <input class="palindrome-input" id="text-input" value="" type="text">
+            <button class="palindrome-btn" id="check-btn">Checar!</button>
+            <div class="results-div" id="result"><p class="user-input hidden"></p></div>
+          </div>
+        <div class="palindrome-definition-div">
+            <p class="palindrome-definition">
+              <span role="img" aria-label="light-bulb">💡</span>
+                Um <dfn>palíndromo</dfn> é uma palavra ou frase que se escreve da mesma forma tanto da esquerda para a direita quanto da direita para a esquerda, ignorando pontuação, letras maiúsculas e minúsculas e espaços.
+            </p>
+          </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
