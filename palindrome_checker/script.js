@@ -32,7 +32,6 @@ checkButton.addEventListener('click', checkPalindrome);
 const animateTitle = () => {
     const title = document.getElementById('title');
     const titleText = title.textContent;
-    console.log(titleText.length);
 
     title.innerHTML = "";
   
